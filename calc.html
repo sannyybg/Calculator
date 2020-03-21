@@ -1,0 +1,64 @@
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|IBM+Plex+Mono|Orbitron|Krona+One|Codystar|Open+Sans+Condensed:300|Oxanium|Spartan|Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calculator SANNYbg</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="icon" href="backgr/f1logo.png">
+    <style>html {
+        background-color: #2c3e50;
+        }
+        
+        </style>
+</head>
+
+<body>
+
+<br>
+<center><form name="calc">
+    <input id="inputt" name="display" placeholder="0">
+    <br><br>
+    <input id="bttn" value="9" type="button" onclick="document.calc.display.value += '9'" />
+    <input id="bttn" value="8" type="button" onclick="document.calc.display.value += '8'" />
+    <input id="bttn" value="7" type="button" onclick="document.calc.display.value += '7'" />
+    <input id="bttn" value="+" type="button" onclick="document.calc.display.value += '+'" />
+    <br>
+    <input id="bttn" value="6" type="button" onclick="document.calc.display.value += '6'" />
+    <input id="bttn" value="5" type="button" onclick="document.calc.display.value += '5'" />
+    <input id="bttn" value="4" type="button" onclick="document.calc.display.value += '4'" />
+    <input id="bttn" value="-" type="button" onclick="document.calc.display.value += '-'" />
+    <br>
+    <input id="bttn" value="3" type="button" onclick="document.calc.display.value += '3'" />
+    <input id="bttn" value="2" type="button" onclick="document.calc.display.value += '2'" />
+    <input id="bttn" value="1" type="button" onclick="document.calc.display.value += '1'" />
+    <input id="bttn" value="*" type="button" onclick="document.calc.display.value += '*'" />
+    <br>
+    <input id="bttn" value="=" type="button" onclick="document.calc.display.value = eval(document.calc.display.value)" />
+    <input id="bttn" value="C" type="button" onclick="allclear()" />
+    <input id="bttn" value="0" type="button" onclick="document.calc.display.value += '0'" />
+    <input id="bttn" value="/" type="button" onclick="document.calc.display.value += '/'" />
+
+
+
+
+</form></center>
+
+<script>
+    function allclear() {
+        document.calc.display.value = " ";
+    }
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
